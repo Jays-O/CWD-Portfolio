@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Add this in the <head> section of your HTML file -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- to connect html file to css -->
+    <link rel="stylesheet" href="main.css">
+    <title>My Portfolio</title>
+</head>
+<body>
+
+
+<!-- navbar -->
+    <div class="navbar-fixed">
+        <nav class="navbar">
+            <div class="nav-wrapper">
+                <div class="container0">
+                <a href="" class="brand-logo left">
+                        <span class="font port name"> My<span class="white-text">PORTFOLIO</span> </span>
+                </a>
+            </div>
+                <div class="container1">
+                        <ul  class="hide-on-small-only right font">
+                            <ul class="tabs tabs-transparent">
+                                <li class="tab"> <a href="#Home" id="Home1">Home</a></li>
+                                <li class="tab"> <a href="#About-Me">About Me</a> </li>
+                                <li class="tab"> <a href="#Contact-Info" id="Contact-Info1">Contact Info</a> </li>
+                            </ul>
+                            
+                        </ul>
+                        <!-- for dropdown trigger -->
+                <div class="hide-on-med-and-up">
+                    <a href="" class="dropdown-trigger btn right" data-target='dropdown1'>
+                        <i class="fa-solid fa-bars "></i>
+                    </a>
+                <!-- Dropdown Structure -->
+                    <ul id='dropdown1' class='dropdown-content'>
+                        <li class="tab"> <a href="#Home1">Home</a></li>
+                        <li class="tab"> <a href="#About-Me">About Me</a> </li>
+                        <li class="tab"> <a href="#Contact-Info">Contact Info</a> </li>
+                    </ul>
+            </div>  
+                </div>
+                
+                  
+             </div>
+        </nav>
+    </div>
+    <div>
+        <h1>Jaycel</h1>
+    </div>
+<!-- hanggang dito ung nav bar -->
+
+
+
+
+
+
+     <!-- font awesome -->
+     <script src="https://kit.fontawesome.com/56ca1ea3a7.js" crossorigin="anonymous"></script>
+
+     <!-- material icon -->
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+ 
+     <!-- jquery CDN    -->
+     <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+ 
+     <!-- Compiled and minified JavaScript -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $('#slider1').slider({
+              interval: 1500,  
+              duration: 1500,
+              indicators: false,
+              height: 220            
+            });
+            $('#slider2').slider({
+                interval: 1500,  
+                duration: 1500,
+                indicators: false,
+                height: 220  
+            });
+            $('#slider3').slider({
+                interval: 1500,  
+                duration: 1500,
+                indicators: false,
+                height: 220  
+            });
+            $('.dropdown-trigger').dropdown();
+            //sidenav init
+            $('.sidenav').sidenav();
+            //tabs init
+            $('.tabs').tabs();
+            //parallax init
+            $('.parallax').parallax();
+                });
+        
+    </script>
+
+</body>
+</html>
