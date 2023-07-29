@@ -86,6 +86,32 @@
     background-color:  rgba(10, 148, 240, 0.3);
 }
 
+.name{
+    color: #3DC3C1;
+}
 
 
+.card-color{
+    background-color: #191B28;  
+}
 
+.blockquote-color{
+
+        margin: 0px 0;
+        padding-left: 50px;
+        border-left: 5px solid #ffffff  ;
+    
+}
+.calling-card{
+    padding-left: 20px;
+    padding-right: 20px ;
+    padding-top: 20px;
+    padding-bottom: 20px ;
+    background-color: #191B28;  
+    border: 2px solid #3DC3C1;
+}   
+
+.letter{
+    font-size: 30px;
+    color: #3DC3C1;
+}   
