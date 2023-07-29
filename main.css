@@ -19,6 +19,7 @@
 .port{
     padding-top: 20px;
     padding-left: 50px;
+    color: #3DC3C1;
 }
 .container1{
     margin-top: 10px;
@@ -86,9 +87,6 @@
     background-color:  rgba(10, 148, 240, 0.3);
 }
 
-.name{
-    color: #3DC3C1;
-}
 
 
 .card-color{
@@ -112,6 +110,14 @@
 }   
 
 .letter{
+    font-size: 17px;
+    color: #ffffff;
+}   
+.name{
     font-size: 30px;
     color: #3DC3C1;
-}   
+}
+
+.parallax-container {
+    height: 750px;
+  }
