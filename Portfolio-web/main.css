@@ -1,0 +1,217 @@
+
+.font{
+    font-family: 'Canva Sans', sans-serif;
+    font-weight: bold;
+}
+
+
+.font1{
+    font-family: 'Canva Sans', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+}
+/* All content of navbar */
+.navbar {
+    background-color: #191B28;  
+    
+    height: 80px; 
+  }
+.port{
+    padding-top: 20px;
+    padding-left: 50px;
+}
+.container1{
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
+
+/* dropdown-content edit */
+.dropdown-content {
+    background-color:#195f88;
+    margin: 0;
+    display: none;
+    min-width: 100px;
+    overflow-y: auto;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+}
+.dropdown-content li>a, .dropdown-content li>span {
+    font-size: 16px;
+    font-family: 'Canva Sans', sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    display: block;
+    line-height: 22px;
+    padding: 14px 16px;
+}
+
+
+
+
+
+
+
+  /* for the tabs custom */
+.tabs.tabs-transparent .indicator {
+    background-color:transparent;
+}
+.tabs .tab a:focus,.tabs .tab a:focus.active {
+    background-color: transparent;
+    outline: none
+}
+.container0{
+    margin-left: 150px;
+    padding-bottom: .1px;
+    padding-top: 25px;
+    
+}
+
+
+
+
+
+
+
+/* this is for the button of the dropdown-content */
+.btn{
+    background-color: transparent;
+}
+.btn:hover,.btn-large:hover,.btn-small:hover {
+    background-color:  rgba(10, 148, 240, 0.3);
+}
+
+
+
+
+/* for Home CSS */
+body {
+    font-family: 'PT Serif', serif; /* Use the selected font in your CSS rules */
+  }
+
+.parallax-container {
+    height: 900px;
+  }
+
+.blockquote {
+   
+    margin: 15px 0;
+    padding-left: 1.5rem;
+    border-left: 5px solid #ffffff  ;
+}
+
+
+.name{
+
+    color: #3DC3C1;
+    
+    font-weight: bold;
+   
+}
+.card{
+    border: 2px solid #3DC3C1;
+    color: #3DC3C1;
+    background-color: #191B28;
+    width: 395px;
+}
+
+
+.home-background-1sec{
+    
+    border-left: 20px solid #3DC3C1;
+    border-right: 20px solid #3DC3C1;
+    
+    background-color: #191B28;
+}
+#container-large{
+    
+    padding-left: 120px;
+}
+
+
+/* for second section of home */
+.second-section-home{
+    background-color: #191B28;
+}
+.sec-home{
+    background-color: #cfd8dc;
+}
+
+.rec-wid {
+    width: 350px;
+}
+.rec-wid-med {
+    width: 250px;
+}
+.card .card-reveal {
+    
+    background-color: #191B28;
+    
+}
+
+
+
+/* for About */
+.bold{
+    font-weight: bold;
+    
+}
+.section-about{
+    background-color: #3DC3C1;
+}
+.section-about2{
+    background-color: beige;
+}
+.section-about1{
+    background-color: #191B28;
+    height: 100px;
+}
+
+.container-info{
+    margin-left: 160px;
+}
+.table-length{
+    width: 700px;
+}
+.table-length1{
+    width: 350px;
+}
+
+
+/* for contact information */
+.card-contact{
+    border: 2px solid #ffffff;
+    color: #3DC3C1;
+    background-color: #191B28;
+    width: 650px;
+}
+.card-contact-small{
+    border: 2px solid #ffffff;
+    color: #3DC3C1;
+    background-color: #191B28;
+    width: 400px;
+}
+.contact-card{
+    padding-left: 25px;
+    font-size:20px ;
+}
+.contact-color{
+    color: #ffffff;
+}
+
+
+.footer{
+    background-color: #191B28;
+}
+.footer-color{
+    color:#3DC3C1;
+}
+
+.margin{
+    margin-right: 20px; /* Adjust the value as per your desired spacing */
+}
